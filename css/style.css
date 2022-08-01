@@ -31,6 +31,9 @@ header {
     font-family: monospace;
 }
 
+
+
+
 .logo {
     display: flex;
     align-items: center;
@@ -74,8 +77,14 @@ nav a:hover {
     text-align: center;
     font-family: monospace;
     color: white;
-    font-size: 15px;
+    font-size: 15px;  
 }
+
+.documento:hover {
+    transform: scale(1.1);
+    transition:  all 1s;
+}
+
 span {
     background-color: black;
   }
