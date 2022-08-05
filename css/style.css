@@ -22,6 +22,7 @@
 
 header {
     display: flex;
+    font-size: medium;
     min-height: 70px;
     justify-content: space-between;
     color: white;
@@ -31,13 +32,11 @@ header {
     font-family: monospace;
 }
 
-
-
-
 .logo {
     display: flex;
     align-items: center;
     padding-left: 50px;
+    font-family: monospace;
 }
 
 nav a {
@@ -69,6 +68,7 @@ nav a:hover {
     text-shadow: 2px 15px 35px white;   
 }
 
+
 .documento {
     padding: 150px;
     background-image: url(../media/551124.jpg);
@@ -87,7 +87,7 @@ nav a:hover {
 
 span {
     background-color: black;
-  }
+}
 
 .contenedorcajas {
     display: flex;
@@ -98,6 +98,27 @@ span {
     
 }
 
+.card:hover {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.1);
+    transition:  all 1s;
+}
+
+.card-group {
+    text-align: center;
+}
+
+.divult {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.citearmin {
+    padding: 200px;
+}
+
+/*
 .caja1 {
     display: grid;
     place-items: center;
@@ -111,13 +132,14 @@ span {
     background-color: white;
     padding: 50px;
 }
-
+*/
 
 footer {
     background-color: black;
     padding: 2rem;
     text-align: center;
     font-family: monospace;
+    font-size: medium;
 }  
 
 .info {
@@ -128,7 +150,7 @@ footer {
     padding: 100px;
     font-family: monospace;
     padding-bottom: 80px;
-
+    font-size: medium;
 }
 
 .testinfo {
@@ -138,10 +160,12 @@ footer {
 
 .pronav {
     margin-left: 200px;
+    font-family: monospace;
 }
 
 .undnav {
     margin-left: 50px;
+    font-family: monospace;
 }
 
 .Copyrigh {   
@@ -149,6 +173,7 @@ footer {
     color: aliceblue;
     text-align: center;
     padding-top: 100px;
+    font-size: medium;
 }
 
 
@@ -166,6 +191,10 @@ footer {
 .headerdjs {
     text-align: center;
     padding: 30px;
+}
+
+.div_top {
+    padding: 50px;
 }
 
 .imgdjs {
@@ -223,27 +252,16 @@ footer {
 
 .gigs_titulo {
     text-align: center;
-    padding: 30px;
-
+    padding: 50px;
+    font-family: monospace;
+    background-color: black;
+    color: white;
 }
 
-.gigs_lista {
-    padding: 30px;
-    margin: 50px;
-    border-style: double;
-    border-radius: 30px;
-}
-
-.gigs_ntwo {
-    padding: 30px;
-    margin: 50px;
-    color: slateblue;
-}
-
-.gigs_nicolas {
-    padding: 30px;
-    margin: 50px;
-    color: violet;
+.accordion {
+    padding-top: 200px;
+    padding-bottom: 220px;
+    background-color: gray;
 }
 
 

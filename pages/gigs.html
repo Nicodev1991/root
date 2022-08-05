@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Gigs</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 		<link rel="stylesheet" href="../css/style.css">
 	</head>
 	<body>
@@ -12,55 +13,74 @@
                 <h2 class="logo">#!</h2>
             </div>
             <nav>
-                <a href="../index.html" target="_blank">Inicio</a>
-                <a href="../pages/djs.html" target="_blank">DJ'S</a>
-                <a href="../pages/Lanzamientos.html" target="_blank">Musica & Lanzamientos</a>
-                <a href="../pages/gigs.html" target="_blank">Gigs</a>
-                <a href="../pages/contacto.html" target="_blank">Contacto</a>
+                <a href="../index.html">Inicio</a>
+                <a href="../pages/djs.html">DJ'S</a>
+                <a href="../pages/Lanzamientos.html">Musica & Lanzamientos</a>
+                <a href="../pages/gigs.html">Gigs</a>
+                <a href="../pages/contacto.html">Contacto</a>
             </nav>
         </header>
         <div class="gigs_titulo">
-            <h1>Gigs</h1>
+            <h1>GIGS</h1>
         </div>
-        <div class="gigs_lista">        
-            <div class="gigs_ntwo">
-                <article>
-                    <h3>NTWO</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti porro excepturi molestiae at. 
-                    Modi odio error vel quia dicta dolor perspiciatis laudantium cumque, possimus beatae consequuntur deserunt enim dolore odit.
-                    </p>
-                    <h5>DATE</h5>
-                    <ul>
-                        <li>Julio 1, 2022 @ Zamárdi, Hungary </li>
-                        <li>Julio 21, 1022 @ Buenos Aires. Party Happy birthday</li>
-                        <li>Agosto 17, 2022 @ London, United Kingdom</li>
-                    </ul>    
-                </article>
+
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  NTWO
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong>Aug 7, 2022</strong> Untold Festival 2022, Cluj-napoca <code>, Romania.</code>
+                </div>
+              </div>
             </div>
-            <div class="gigs_nicolas">
-                <article>
-                    <h3>Nicolás López</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti porro excepturi molestiae at. 
-                    Modi odio error vel quia dicta dolor perspiciatis laudantium cumque, possimus beatae consequuntur deserunt enim dolore odit.
-                    </p>
-                    <h5>DATE</h5>
-                    <ul>
-                        <li>Julio 4, 2022 @ Buenos Aires, Crobar</li>
-                        <li>Julio 21, 1022 @ Buenos Aires, Secret Location. Party Happy birthday</li>
-                        <li>Agosto 25, 2022 @ Mendoza, Valle de Uco</li>
-                    </ul>    
-                </article>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Nicolas Lopez
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>Aug 25, 2022</strong> PRYSM Nightclub <code>, Chicago.</code>
+                  <br>
+                  <strong>Sep 17, 2022</strong> Mina de sal de Nemocón <code>, Colombia.</code>
+                  <br>
+                  <strong>Sep 30, 2022</strong> Stereo <code>, Montreal.</code>
+                </div>
+              </div>
             </div>
-        </div>
-    <hr>              
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Brian Gros
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <strong>Sep 17, 2022</strong> NYC Boat Party and Club Show <code>, New York City, United Statesa.</code>
+                  <br>
+                  <strong>Oct 15, 2022</strong> Mandarine Park <code>, Argentina.</code>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"crossorigin="anonymous"></script>          
     </body>
     <footer>                                   
         <nav>
-			<a href="../index.html" target="_blank">Inicio</a>
-            <a href="../pages/djs.html" target="_blank">DJ'S</a>
-            <a href="../pages/Lanzamientos.html" target="_blank">Musica & Lanzamientos</a>
-            <a href="../pages/gigs.html" target="_blank">Gigs</a>
-            <a href="../pages/contacto.html" target="_blank">Contacto</a> 
+			<a href="../index.html">Inicio</a>
+                <a href="../pages/djs.html">DJ'S</a>
+                <a href="../pages/Lanzamientos.html">Musica & Lanzamientos</a>
+                <a href="../pages/gigs.html">Gigs</a>
+                <a href="../pages/contacto.html">Contacto</a>
 		</nav>
 		<div class="Copyrigh">       
 			<p>UNDER ROOMX !* Copyrigh 2022</p>
