@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* INICIO */
+
+.body_in {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    font-family: system-ui, sans-serif;
+}
+
+@media only screen and (min-width:768px) and (max-width:2000px){
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 800px){
+
+}
+
+header {
+    display: flex;
+    font-size: medium;
+    min-height: 70px;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    align-items: center;
+    padding: 5px;
+    font-family: monospace;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    font-family: monospace;
+}
+
+nav a {
+    padding-right: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(224, 148, 86);
+}
+
+.div_top {
+    padding-right: 25px;
+    color: white;
+    text-decoration: none;
+    flex-direction: row;
+}
+
+.front_1 {
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    padding: 30rem;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../media/NICO4.PNG);
+    font-family: 'Covered By Your Grace', cursive;
+    text-shadow: 2px 15px 35px white;   
+}
+
+
+.documento {
+    padding: 150px;
+    background-image: url(../media/551124.jpg);
+    align-content: stretch;
+    background-size: cover;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    font-size: 15px;  
+}
+
+.documento:hover {
+    transform: scale(1.1);
+    transition:  all 1s;
+}
+
+span {
+    background-color: black;
+}
+
+.contenedorcajas {
+    display: flex;
+    grid-gap: 1rem;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}
+
+.card:hover {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.1);
+    transition:  all 1s;
+}
+
+.card-group {
+    text-align: center;
+}
+
+.divult {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.citearmin {
+    padding: 200px;
+}
+
+/*
+.caja1 {
+    display: grid;
+    place-items: center;
+    background-color: white;
+    padding: 50px;
+}
+
+.caja2 {
+    display: grid;
+    place-items: center;
+    background-color: white;
+    padding: 50px;
+}
+*/
+
+footer {
+    background-color: black;
+    padding: 2rem;
+    text-align: center;
+    font-family: monospace;
+    font-size: medium;
+}  
+
+.info {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 100px;
+    font-family: monospace;
+    padding-bottom: 80px;
+    font-size: medium;
+}
+
+.testinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.pronav {
+    margin-left: 200px;
+    font-family: monospace;
+}
+
+.undnav {
+    margin-left: 50px;
+    font-family: monospace;
+}
+
+.Copyrigh {   
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 100px;
+    font-size: medium;
+}
+
+
+/*DJS*/
+
+
+.bodydjs {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    
+}
+
+.headerdjs {
+    text-align: center;
+    padding: 30px;
+}
+
+.div_top {
+    padding: 50px;
+}
+
+.imgdjs {
+    display: block;
+    margin: 0px auto;
+    padding: 30px;
+} 
+
+.textodj {
+    text-align: center;
+    color: coral;
+    font-size: larger;
+    font-family: monospace; 
+} 
+
+.img2edj {
+    display: grid;
+    grid-auto-rows: auto;
+    justify-content: center;
+    margin: 0px;
+}  
+
+.listadj {
+    padding: 30px;
+    font-size: 15px;
+    font-family: monospace;   
+}
+
+
+/*MUSICA & LANZAMIENTOS*/
+
+
+.header_lanzamientos {
+    text-align: center;
+    padding: 50px;
+    font-family: monospace;
+    background-color: black;
+    color: white;
+}
+
+.videos_lan {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: large;
+    background-color: black;
+    color: aliceblue;
+    font-family: monospace;
+    padding-bottom: 80px;
+}
+
+
+/*GIGS*/
+
+
+.gigs_titulo {
+    text-align: center;
+    padding: 50px;
+    font-family: monospace;
+    background-color: black;
+    color: white;
+}
+
+.accordion {
+    padding-top: 200px;
+    padding-bottom: 220px;
+    background-color: gray;
+}
+
+
+/*CONTACTO*/
+
+
+.div_contac {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    color:white;
+    background-color: black;
+    padding: 50px 50px 79px 20px;
+}
+
+.contacto_contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+}
+
+.p_under {
+    font-size: 1rem;
+    text-shadow: white 6px 6px 8px;
+    padding-right: 90px;
+}
+
+.img_contac {  
+    padding: 10px;
+    padding-right: 90px;
+}
+  
+
+.contac_formulario {
+    text-align: center;
+    background-color: rgb(20, 18, 18);
+    padding: 40px;
+    padding-bottom: 50px;
+}
+
+.comentarios_contact {
+    padding-top: 50px;
+    padding-bottom: 30px;   
+}
+
+.formulario__items {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hr {
+    height: 10px;
+    width: 50%;
+    background-color: white;
+  }
+
+.footer_contac {
+    background-color: black;
+    text-align: center;
+    font-family: monospace;
+}
+
+.Copyrigh_contac {
+    background-color: black;
+    color: aliceblue;
+    padding: 2rem;
+    text-align: center;
+    font-family: monospace;
+}
+
+@media only screen and (min-width:1240px){
+	.encabezado{
+		font-size: 50px;
+		text-align: center;
+		color: blue;
+	}
+}
