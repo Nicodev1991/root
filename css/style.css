@@ -4,6 +4,7 @@
 }
 
 /* INICIO */
+
 .body_in {
   display: grid;
   height: 100vh;
@@ -61,22 +62,18 @@ nav a:hover {
 
 .documento {
   padding: 150px;
-  background-image: url(../media/551124.jpg);
+  background-image: url(../media/MHOVER001.png);
   align-content: stretch;
   background-size: cover;
   text-align: center;
   font-family: monospace;
-  color: white;
+  color: whitesmoke;
   font-size: 15px;
 }
 
 .documento:hover {
   transform: scale(1.1);
   transition: all 1s;
-}
-
-span {
-  background-color: black;
 }
 
 .contenedorcajas {
@@ -162,6 +159,7 @@ footer {
 }
 
 /*DJS*/
+
 .bodydjs {
   text-align: center;
   background-color: black;
@@ -169,6 +167,18 @@ footer {
   font-family: monospace;
 }
 
+.sobre {
+  padding: 3%;
+}
+
+
+.sidebar {
+  padding: 10%;
+}
+
+
+
+/*
 .headerdjs {
   text-align: center;
   padding: 30px;
@@ -204,6 +214,8 @@ footer {
   font-family: monospace;
 }
 
+*/
+
 /*MUSICA & LANZAMIENTOS*/
 .header_lanzamientos {
   text-align: center;
@@ -225,6 +237,7 @@ footer {
 }
 
 /*GIGS*/
+
 .gigs_titulo {
   text-align: center;
   padding: 50px;
@@ -240,6 +253,7 @@ footer {
 }
 
 /*CONTACTO*/
+
 .div_contac {
   display: flex;
   align-items: center;
