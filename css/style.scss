@@ -176,17 +176,31 @@ footer {
 }
 
 
-/*DJS*/
+/*NTROS*/
 
 
 .bodydjs {
     text-align: center;
     background-color: black;
     color: white;
-    font-family: monospace;
-    
+    font-family: monospace; 
 }
 
+@mixin container($ancho, $alto, $color) {
+    height: $alto;
+    background-color: $color;
+    text-align: center;
+    margin: 5px;
+  } 
+  
+  .caja_nuno{
+    @include container(200px, 100px, rgb(10, 182, 87))
+  }
+  .caja_ndos{
+    @include container(150px, 50px, rgb(100, 149, 237))
+  }
+
+/*
 .headerdjs {
     text-align: center;
     padding: 30px;
@@ -221,7 +235,7 @@ footer {
     font-size: 15px;
     font-family: monospace;   
 }
-
+*/ 
 
 /*MUSICA & LANZAMIENTOS*/
 
