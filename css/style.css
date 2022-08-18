@@ -4,7 +4,6 @@
 }
 
 /* INICIO */
-
 .body_in {
   display: grid;
   height: 100vh;
@@ -67,13 +66,17 @@ nav a:hover {
   background-size: cover;
   text-align: center;
   font-family: monospace;
-  color: whitesmoke;
+  color: white;
   font-size: 15px;
 }
 
 .documento:hover {
   transform: scale(1.1);
   transition: all 1s;
+}
+
+span {
+  background-color: black;
 }
 
 .contenedorcajas {
@@ -116,7 +119,6 @@ nav a:hover {
     padding: 50px;
 }
 */
-
 footer {
   background-color: black;
   padding: 2rem;
@@ -160,7 +162,6 @@ footer {
 }
 
 /*NTROS*/
-
 .bodydjs {
   text-align: center;
   background-color: black;
@@ -169,23 +170,23 @@ footer {
 }
 
 .sobre {
-  padding: 3%;
+  padding: 2rem;
 }
-
-
 .sidebar {
-  padding: 8%;
+  padding: 10rem;
 }
+
+
 
 .caja_nuno {
-  height: 80px;
+  height: 100px;
   background-color: rgb(10, 182, 87);
   text-align: center;
   margin: 5px;
 }
 
 .caja_ndos {
-  height: 20px;
+  height: 50px;
   background-color: rgb(100, 149, 237);
   text-align: center;
   margin: 5px;
@@ -193,44 +194,41 @@ footer {
 
 /*
 .headerdjs {
-  text-align: center;
-  padding: 30px;
+    text-align: center;
+    padding: 30px;
 }
 
 .div_top {
-  padding: 50px;
+    padding: 50px;
 }
 
 .imgdjs {
-  display: block;
-  margin: 0px auto;
-  padding: 30px;
-}
+    display: block;
+    margin: 0px auto;
+    padding: 30px;
+} 
 
 .textodj {
-  text-align: center;
-  color: coral;
-  font-size: larger;
-  font-family: monospace;
-}
+    text-align: center;
+    color: coral;
+    font-size: larger;
+    font-family: monospace; 
+} 
 
 .img2edj {
-  display: grid;
-  grid-auto-rows: auto;
-  justify-content: center;
-  margin: 0px;
-}
+    display: grid;
+    grid-auto-rows: auto;
+    justify-content: center;
+    margin: 0px;
+}  
 
 .listadj {
-  padding: 30px;
-  font-size: 15px;
-  font-family: monospace;
+    padding: 30px;
+    font-size: 15px;
+    font-family: monospace;   
 }
-
 */
-
 /*MUSICA & LANZAMIENTOS*/
-
 .header_lanzamientos {
   text-align: center;
   padding: 50px;
@@ -251,7 +249,6 @@ footer {
 }
 
 /*GIGS*/
-
 .gigs_titulo {
   text-align: center;
   padding: 50px;
@@ -267,7 +264,6 @@ footer {
 }
 
 /*CONTACTO*/
-
 .div_contac {
   display: flex;
   align-items: center;
@@ -342,6 +338,4 @@ footer {
     text-align: center;
     color: blue;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
