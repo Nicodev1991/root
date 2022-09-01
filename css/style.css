@@ -4,6 +4,7 @@
 }
 
 /* INICIO */
+
 .body_in {
   display: grid;
   height: 100vh;
@@ -26,17 +27,18 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  padding-left: 50px;
+  padding-left: 40px;
   font-family: monospace;
+  font-size: 20px;
 }
 
-nav a {
+.nav a {
   padding-right: 50px;
   color: white;
   text-decoration: none;
 }
 
-nav a:hover {
+.nav a:hover {
   color: rgb(224, 148, 86);
 }
 
@@ -47,17 +49,7 @@ nav a:hover {
   flex-direction: row;
 }
 
-.front_1 {
-  text-align: center;
-  font-size: 150px;
-  color: white;
-  padding: 30rem;
-  background-attachment: fixed;
-  background-size: cover;
-  background-image: url(../media/NICO4.PNG);
-  font-family: "Covered By Your Grace", cursive;
-  text-shadow: 2px 15px 35px white;
-}
+
 
 .documento {
   padding: 150px;
@@ -104,21 +96,7 @@ span {
   padding: 200px;
 }
 
-/*
-.caja1 {
-    display: grid;
-    place-items: center;
-    background-color: white;
-    padding: 50px;
-}
 
-.caja2 {
-    display: grid;
-    place-items: center;
-    background-color: white;
-    padding: 50px;
-}
-*/
 footer {
   background-color: black;
   padding: 2rem;
@@ -264,6 +242,39 @@ footer {
 }
 
 /*CONTACTO*/
+
+
+
+
+.contacto {
+  padding: 7rem;
+  color: white;
+  font-family: monospace;
+  background-image: url(../media/11.jpg);
+}
+
+.h1con {
+  padding-bottom: 3rem;
+}
+/* 
+.form-contact {
+  background: #FFF;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+}
+
+
+.comentarios_contact {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+
+
 .div_contac {
   display: flex;
   align-items: center;
@@ -271,7 +282,6 @@ footer {
   font-family: monospace;
   color: white;
   background-color: black;
-  padding: 50px 50px 79px 20px;
 }
 
 .contacto_contact {
@@ -290,16 +300,11 @@ footer {
   padding-right: 90px;
 }
 
-.img_contac {
-  padding: 10px;
-  padding-right: 90px;
-}
 
 .contac_formulario {
   text-align: center;
-  background-color: rgb(20, 18, 18);
-  padding: 40px;
-  padding-bottom: 50px;
+  background-color: black;
+  padding: 30px;
 }
 
 .comentarios_contact {
@@ -311,15 +316,10 @@ footer {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
-.hr {
-  height: 10px;
-  width: 50%;
-  background-color: white;
-}
+*/
 
 .footer_contac {
-  background-color: black;
+  background-image: none;
   text-align: center;
   font-family: monospace;
 }
