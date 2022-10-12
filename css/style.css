@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* INICIO */
@@ -24,9 +25,6 @@ header {
   font-family: monospace;
 }
 
-.navbartop{
-display: flex;
-}
 
 .logo {
   display: flex;
@@ -244,10 +242,27 @@ footer {
   font-family: monospace;
 }
 
-@media only screen and (min-width: 1240px) {
-  .encabezado {
-    font-size: 50px;
-    text-align: center;
-    color: blue;
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .navbartop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
   }
-}/*# sourceMappingURL=style.css.map */
+
+  .portada .documento  {
+
+  }
+
+  .contacto {
+
+  }
+
+  .nav {
+
+
+  }
+    footer {
+
+  } 
+}
